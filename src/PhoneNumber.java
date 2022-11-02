@@ -1,7 +1,7 @@
-public class PhineNumber {
+public class PhoneNumber {
     private final String phoneNumber;
 
-    public PhineNumber(String phoneNumber) {
+    public PhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

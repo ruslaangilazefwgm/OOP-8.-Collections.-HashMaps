@@ -1,10 +1,10 @@
 import java.util.HashMap;
 
 public class PhoneMap {
-    private final HashMap<Name, PhineNumber> phoneMap = new HashMap<>();
+    private final HashMap<Name, PhoneNumber> phoneMap = new HashMap<>();
 
-    public void addInfo(Name name, PhineNumber phineNumber) {
-        this.phoneMap.put(name, phineNumber);
+    public void addInfo(Name name, PhoneNumber phoneNumber) {
+        this.phoneMap.put(name, phoneNumber);
     }
 
     @Override
